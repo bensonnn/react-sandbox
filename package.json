@@ -4,6 +4,7 @@
   "description": "A development sandbox geared toward ES6/Webpack usage",
   "main": "index.js",
   "scripts": {
+    "start": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -13,6 +14,8 @@
   "author": "Dan Benson",
   "license": "ISC",
   "dependencies": {
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
   },
   "devDependencies": {
     "babel-core": "^6.5.1",
